@@ -11,7 +11,7 @@ app.use("/assets", express.static(path.join(__dirname, "assets")));
 
 app.use("/", appRouting);
 
-app.listen(8080, () => {
+app.listen(8000, () => {
   console.log("Application running in port : 8080");
 });
 
